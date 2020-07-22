@@ -25,24 +25,22 @@
         <li><a href="#portfolio">Speciality </a></li>
         <li><a href="#contact">Directions</a></li>
       </ul>
-	   <div class="toporder" href="#top">
-        <a  href="https://www.zomato.com/bangalore/restaurants/chilld-monk?utm_medium=o2_widget&amp;utm_campaign=widget-business&amp;utm_source=referral-widget-chain-18679620"
-			  target="_blank"
-			  class="button small scrolly">
-			  <i class="fas fa-shopping-cart"></i>
-			<span style="font-size: 1em; font-family: 'Aladin', cursive;">ORDER ONLINE</span></i
-			  ></a>
+	   <div class="toporder blink_me" >
+      <a  href="https://www.zomato.com/bangalore/restaurants/chilld-monk?utm_medium=o2_widget&amp;utm_campaign=widget-business&amp;utm_source=referral-widget-chain-18679620"
+      target="_blank"
+      class="btn-cta-shop">
+      <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> <span class=""> Order Online</span></a>
       </div>
     </nav>
 
     <!-- Home -->
-    <article class="bg">
-      <div class="container">
+    <article id="home" class="bg">
+      <div class="container layer">
         <div class="row">
           <div class="col-8 col-7-large col-12-medium headerText">
 
-            <h1 style="font-size: 7em; font-family: 'Aladin', cursive; color:white">Chill'd Monk</h1>
-            <p style="font-size: 2em; font-family: 'Aladin', cursive;">
+            <h1 style="font-size: 7em; font-family: 'Aladin', cursive; color:white;line-height: 75px;">Chill'd Monk</h1>
+            <p style="font-size: 2em; font-family: 'Aladin', cursive;">Feel The Ice Solace</p>
 
 
           </div>
@@ -168,17 +166,16 @@
             <ul class="social">
               <li>
                 <a
-                  href="#"
+                  href="https://wa.me/+919880508039"
                   class="icon brands fa-whatsapp"
-                  style="background-color: #48b356;"
+                  style="background-color: #7bbf6a; color: white;"
                   ><span class="label">Whatsapp</span></a>
               </li>
               <li>
-                <a href="#" class="icon brands fa-facebook-f"
-                  ><span class="label">Facebook</span></a>
+                <a href="https://www.facebook.com/ChilldmonkIceCream" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
               </li>
               <li>
-                <a href="#" class="icon brands fa-instagram"
+                <a href="https://www.instagram.com/chilldmonkicecream/" target="_blank" class="icon brands fa-instagram"
                   ><span class="label">Instagram</span></a>
               </li>
             </ul>
@@ -204,43 +201,33 @@
 	</article>
 	
 	<div class="footercta">
-		<div class="row">
-		  <div class="col-3" style="padding-left: 28px; padding-top: 24px;">
-			<a href="tel:+919945223856" class="button small scrolly">
-			  <i class="icon brands fa-whatsapp fa-lg" aria-hidden="true"></i
-			></a>
-		  </div>
-		  <div
-			class="col-3"
-			style="
-			  padding-left: 12px;
-			  padding-top: 24px;
-			  width: 20%; /* height: 100%; */" >
-			<a href="tel:+919945223856"
-			  class="button small scrolly"
-			  style="padding: 18px;">
+		<div class="row" >
+      <div class="btn-8px" style="margin-left: 25px;">
+        <a href="tel:+919880508039"
+			  class="btn-cta-phone">
 			  <i class="fa fa-phone fa-lg fa-flip-horizontal"
 				aria-hidden="true"
 			  ></i></a>
 		  </div>
-		  <div class="col-6"
-			style="
-			  padding-right: 0px;
-			  padding-top: 26px;
-			  font-size: smaller; /* padding-left: 12px; */	" >
+		  <div class="btn-8px"	 >
+        <a href="https://wa.me/+919880508039" class="btn-cta-whatsapp">
+          <i class="icon brands fa-whatsapp fa-lg" aria-hidden="true"></i></a>			
+      </div>
+      <div class="btn-8px">
+        <a href="fb://page/2078315239072966" class="btn-cta-fb" target="_blank">
+        <i class="icon brands fa-facebook-f"></i></a></div>
+        <div class="btn-8px">
+          <a href="https://www.instagram.com/chilldmonkicecream/" class="" target="_blank">
+            <img alt="" src="images/insta.png" class="insta-cta"></a></div>
+		  <div class="btn-8px">
 			<a  href="https://www.zomato.com/bangalore/restaurants/chilld-monk?utm_medium=o2_widget&amp;utm_campaign=widget-business&amp;utm_source=referral-widget-chain-18679620"
 			  target="_blank"
-			  class="button1 small scrolly">
-			  <i class="fa fa-lg fa-motorcycle" aria-hidden="true"
-				>&nbsp;<span>ORDER ONLINE</span></i
-			  ></a>
-			<!-- <div class="widget_wrap" style="width:auto;height:auto;">
-						  <a href="https://www.zomato.com/bangalore/restaurants/chilld-monk?utm_medium=o2_widget&utm_campaign=widget-business&utm_source=referral-widget-chain-18679620" target="_blank"><img width="240" height="60" src="https://b.zmtcdn.com/images/developers/o2_badge_g.png" alt="Zomato"></a>
-					  </div> -->
+			  class="btn-cta-shop ">
+			  <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> <span class=""> Order</span></a>
 		  </div>
 		</div>
 	</div>
-	<a onclick="topFunction()" id="myBtn" title="Go to top">
+	<a href="#home" id="scrollBtn" >
 		<i class="fa fa-arrow-circle-up fa-2x " aria-hidden="true"></i></a>
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
@@ -251,24 +238,19 @@
 	<script src="assets/js/main.js"></script>
 	<script>
 		//Get the button
-		var mybutton = document.getElementById("myBtn");
+		var mybutton = document.getElementById("scrollBtn");
 		
 		// When the user scrolls down 20px from the top of the document, show the button
 		window.onscroll = function() {scrollFunction()};
 		
 		function scrollFunction() {
-		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		  if (document.body.scrollTop > 580 || document.documentElement.scrollTop > 580) {
 			mybutton.style.display = "block";
 		  } else {
 			mybutton.style.display = "none";
 		  }
-		}
-		
-		// When the user clicks on the button, scroll to the top of the document
-		function topFunction() {
-		  document.body.scrollTop = 0;
-		  document.documentElement.scrollTop = 0;
-		}
+		};	
+
 		</script>
   </body>
 </html>
