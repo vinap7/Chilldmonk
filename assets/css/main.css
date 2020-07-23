@@ -400,6 +400,25 @@ input, select, textarea {
 		.container.medium {
 			width: 900px;
 		}
+		@media screen and (max-width:1920px) {
+			.container {
+				width: 1200px;
+			}
+
+				.container.medium {
+					width: 900px;
+				}
+			.footercta
+			{
+				visibility: hidden;
+			}
+			.toporder{
+			visibility: visible;
+			}
+			.home-btn{
+				color:#fff;left: 10%;top: 14px;position:absolute;
+			}
+		}
 
 		@media screen and (max-width: 1680px) {
 
@@ -416,6 +435,9 @@ input, select, textarea {
 			}
 			.toporder{
 			visibility: visible;
+			}
+			.home-btn{
+				color:#fff;left: 10%;top: 14px;position:absolute;
 			}
 
 		}
@@ -436,6 +458,9 @@ input, select, textarea {
 				.toporder{
 			visibility: visible;
 			}
+			.home-btn{
+				color:#fff;left: 10%;top: 14px;position:absolute;
+			}
 		}
 
 		@media screen and (max-width: 980px) {
@@ -454,6 +479,9 @@ input, select, textarea {
 			.toporder{
 			visibility: visible;
 			}	
+			.home-btn{
+				color:#fff;left: 10%;top: 14px;position:absolute;
+			}
 
 		}
 
@@ -491,6 +519,9 @@ input, select, textarea {
 			text-align: center;
 			background-size: Cover;
 			background-repeat: repeat-y;
+			}
+			.home-btn{
+				color:#fff;left: 20%;top: 14px;position:absolute;
 			}
 		}
 
