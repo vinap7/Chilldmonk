@@ -7,15 +7,25 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+#header h2 {
+	margin-top: 20px ;
+}
 .blink_me {
-	animation: blinker 1s linear infinite; */
-  }
+	animation: blinker 1s linear infinite; 
+}
   
-  @keyframes blinker {
+ @keyframes blinker {
 	50% {
 	  opacity: 0;
 	}
-  }
+}
+.online-cta{
+	width: 68px;
+	height: 68px;
+	padding: 8px;
+}
+
 .insta-cta{
 width: 68px;
 height: 68px;
@@ -30,10 +40,10 @@ right: 10px;
     display: inline-block;
     height: 46px;
     min-width: 50px;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #7bbf6a;
     color: #fff;
-    padding-top: 14%;
+    padding-top: 16%;
     border-radius: 10px;
 }
 .btn-cta-fb {
@@ -43,7 +53,7 @@ right: 10px;
     font-size: 18px;
     background-color: #516eab;
     color: #fff;
-    padding-top: 20%;
+    padding-top: 24%;
     border-radius: 10px;
 }
 .btn-cta-phone {
@@ -53,7 +63,7 @@ right: 10px;
     font-size: 18px;
     background-color: #7bbf6a;
     color: #fff;
-    padding-top: 20%;
+    padding-top: 24%;
     border-radius: 10px;
 }
 
@@ -87,13 +97,14 @@ background-color: rgb(255 255 255 / 0.95);
 }
 .footercta {
 	position: fixed;
-	left: 0;
-	bottom: -8px;
-	width: 100%;
-	background-color: #e6e6e6e0;
-	color: white;
-	text-align: center;
-	height: 75px;
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    background-color: #e6e6e6e0;
+    color: white;
+    text-align: center;
+    height: 85px;
+    padding: 5px;
 }
 .imagelogo{
 	width: 90px;height: 115px;
@@ -116,10 +127,10 @@ background-color: rgb(255 255 255 / 0.95);
 }
 
 
-#nav div a
+/* #nav div a
 {
 	background-color: #e74679 !important;
-}
+} */
 
 .headerText{
 	position: absolute;
@@ -135,8 +146,9 @@ background-color: rgb(255 255 255 / 0.95);
     color: white;
 }
 .bg{
-	background-image: url(../../images/Hotchoc.JPG);
-    height: 134vh;
+	/* background-image: url(../../images/Hotchoc.JPG); */
+	background-image: url(../../images/banner.gif);	
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1456,7 +1468,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 25px 0 0 25px;
+						padding: 25px 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -1700,9 +1712,9 @@ input, select, textarea {
 					margin-left: -15px;
 				}
 
-					/* .row > * {
+					.row > * {
 						padding: 15px 0 0 15px;
-					} */
+					}
 
 					.row.gtr-uniform {
 						margin-top: -15px;
@@ -2333,10 +2345,10 @@ input, select, textarea {
 			padding: 0 1.25em;
 		}
 
-			#nav a:hover {
+			/* #nav a:hover {
 				color: #53386b;
 				background-color: #53386b;
-			}
+			} */
 
 			#nav a.active {
 				background: #53386b;

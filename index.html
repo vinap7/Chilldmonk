@@ -12,16 +12,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta property="og:title" content="Chill'd Monk">
 		<meta property="og:description" content="Chill'd Monk | Ice cream shop in Bangalore">
-		<meta property="og:image" content="http://chilldmonk.com/images/thumbnail.JPEG">
+		<meta property="og:image" content="http://chilldmonk.com/images/thumbnail.JPG">
 		<meta property="og:url" content="https://chilldmonk.com/index.html">    
-    <link rel="icon" href="images/Picture1.png" type="images/png" sizes="22x22">
+    <link rel="icon" href="images/favicon.png" type="images/png" sizes="22x22">
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="is-preload">
     <!-- Nav -->
     <nav id="nav">
       <div class="logo">
-        <img class="imagelogo" src="images/logo.jpg" alt="Chill'd Monk Logo" />
+        <a  href="#"><img class="imagelogo" src="images/logo.jpg" alt="Chill'd Monk Logo" /></a>
       </div>
       <ul class="container">
         <li><a href="#About"> About  </a></li>
@@ -29,9 +31,7 @@
         <li><a href="#Directions">Directions</a></li>
       </ul>
 	   <div class="toporder" >
-      <a  href="https://www.zomato.com/bangalore/restaurants/chilld-monk?utm_medium=o2_widget&amp;utm_campaign=widget-business&amp;utm_source=referral-widget-chain-18679620"
-      target="_blank"
-      class="btn-cta-shop-top">
+      <a href="#OnlineOrder" rel="modal:open" class="btn-cta-shop-top">
       <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> <span class=""> Order Online</span></a>
       </div>
     </nav>
@@ -51,8 +51,8 @@
     <!-- Work -->
     <article id="About" class="wrapper style2">
       <div class="container container-white" >
-        <header>
-          <h2>Secret Combo for Happiness – Ice cream & Friends </h2>
+        <header  data-aos="fade-right">
+          <h2 style="padding-top: 12px;">Secret Combo for Happiness – Ice cream &amp; Friends </h2>
           <p>
             Ice cream and friends do happen in our lives. They both don’t need any special occasion or reason to celebrate. Both bring in Joy, Fun, Happiness, Smiles and Laughter. May it be a midnight cravings, reunions, parties, get-togethers, sleepovers, joint studies, exam results, love or breakups – friends and Ice creams play a subtle bonding. </p>
 			<p>With all the madness going on around you and your friends, ice creams add up to that much needed flavoured punch. It is so fun to remember the fights with friends to get those bigger chunks of ice cream scoop or secretly grabbing your friend’s cone once you have finished yours or licking that last bit of cream from your bowls, ice creams and friendship remain the fond memories to our generations. <br>Let’s recreate that magical ice cream memories with your friends at Chill’d Monk Ice Cream parlour or order at your doorsteps.</p>
@@ -61,15 +61,15 @@
       </div>    
     </header>
         
-        <div class="row aln-center">         
-          <div class="col-4 col-6-medium col-12-small">
+        <div class="row aln-center" >         
+          <div class="col-4 col-6-medium col-12-small" data-aos="fade-right" >
             <section class="box style1">
               <span class="icon featured fa-comments"></span>
               <h3>Party Orders</h3>
               <p>We take bulk order for weddings and birthday parties.</p>
             </section>
           </div>
-          <div class="col-4 col-6-medium col-12-small">
+          <div class="col-4 col-6-medium col-12-small" data-aos="fade-right" >
             <section class="box style1">
               <span class="icon solid featured fa-camera-retro"></span>
               <h3>Events</h3>
@@ -79,7 +79,7 @@
               </p>
             </section>
           </div>
-          <div class="col-4 col-6-medium col-12-small">
+          <div class="col-4 col-6-medium col-12-small" data-aos="fade-right" >
             <section class="box style1">
              <!-- <span class="icon featured fa-thumbs-up"></span> -->
 			  <i class="fas fa-store fa-5x" style="color:#6b4d83;"></i> <br>
@@ -95,20 +95,20 @@
     <!-- Portfolio -->
     <article id="Speciality" class="wrapper style3">
       <div class="container container-white" >
-        <header>
-          <h2>Our Specialities</h2>
+        <header  data-aos="fade-right" >
+          <h2  style="padding-top: 12px;">Our Specialities</h2>
           <p>
             Our Super premium quality ice creams are made with milk directly procured
             from farmers.
           </p>
           <div class="row" style="justify-content: flex-end;">
-		  <a href="specialities.html">More flavors </a></div>
+		    <a href="specialities.html">More flavors </a></div>
         </header>
-        <div class="row">
-          <div class="col-4 col-6-medium col-12-small">
+        <div class="row"  >
+          <div class="col-4 col-6-medium col-12-small" data-aos="fade-right">
             <article class="box style2">
 
-              <a href="#" class="image featured"><img src="images/strawbery_IceCream.JPG" alt="Strawberry Scoop"/>
+              <a class="image featured"><img src="images/strawbery_IceCream.JPG" alt="Strawberry Scoop"/>
 
               </a>
               <h3>Classic Scoops</a></h3> 
@@ -118,9 +118,9 @@
               </p>
             </article>
           </div>
-          <div class="col-4 col-6-medium col-12-small">
+          <div class="col-4 col-6-medium col-12-small" data-aos="fade-right">
             <article class="box style2">
-              <a href="#" class="image featured"><img src="images/Pista_IceCream.jpg" alt="Pista Scoop"/></a>
+              <a  class="image featured"><img src="images/Pista_IceCream.jpg" alt="Pista Scoop"/></a>
               <h3>Natural Flavours</a></h3>
               <p>
                 Real fruit ice cream scoops with inhouse specialities like pine
@@ -128,7 +128,7 @@
               </p>
             </article>
           </div>
-          <div class="col-4 col-6-medium col-12-small">
+          <div class="col-4 col-6-medium col-12-small" data-aos="fade-right">
             <article class="box style2">
               <a class="image featured"><img src="images/Hotchoc.jpg" alt="Hot Chocolate Fudge"/></a>
               <h3>Special Sundaes</a></h3>
@@ -140,11 +140,11 @@
 
     <!-- Contact -->
     <article id="Directions" class="wrapper style4">
-      <div class="container ">
-        <header>
-          <h2>It's now easy to find us around you!!</h2>
+      <div class="container container-white">
+        <header data-aos="fade-right">
+          <h2  style="padding-top: 12px;">It's now easy to find us around you!!</h2>
         </header>
-        <div class="row">
+        <div class="row" data-aos="fade-right">
           <div class="col-12">
             <iframe
               style="width: 100%;"
@@ -157,7 +157,7 @@
 	  </div>
 	  <div class="container ">
 		<div class="row"> 
-          <div class="col-6">
+          <div class="col-6" data-aos="fade-right">
 		    <div class=" container-white" >
             <hr />
             <h3>Find us on</h3>
@@ -180,26 +180,26 @@
 			<br><br>
            </div>
          </div>
-		<div class="col-6">
+		<div class="col-6" data-aos="fade-right" >
 		  <div class=" container-white" >
 		  <hr />
            <h3>Address</h3>
             <section >
 			#436, Ramamurthy Nager Main Road, Kalkere,<br>
-			Bengaluru, KA 560-043 <br>
-			Phone: +91-8048036322<br>
-			Email :	byreshm@gmail.com
-			</section>
+			Bengaluru, KA 560-043 <br/>
+			Phone: +91-8048036322<br/>
+      Email :	byreshm@gmail.com
+      			</section>
           </div>
         </div>
 		</div>
-
+    <br/><br/>
         </div>
 	</article>
 	
 	<div class="footercta">
 		<div class="row" >
-      <div class="btn-8px" style="margin-left: 25px;">
+      <div class="btn-8px" style="margin-left: 15px;">
         <a href="tel:+919880508039"
 			  class="btn-cta-phone">
 			  <i class="fa fa-phone fa-lg fa-flip-horizontal"
@@ -211,28 +211,56 @@
           <i class="icon brands fa-whatsapp fa-lg" aria-hidden="true"></i></a>			
       </div>
       <div class="btn-8px">
-        <a href="fb://page/2078315239072966" class="btn-cta-fb" target="_blank">
+        <a href="https://www.facebook.com/ChilldmonkIceCream" class="btn-cta-fb" target="_blank">
         <i class="icon brands fa-facebook-f"></i></a></div>
         <div class="btn-8px">
           <a href="https://www.instagram.com/chilldmonkicecream/" class="" target="_blank">
             <img alt="" src="images/insta.png" class="insta-cta"></a></div>
 		  <div class="btn-8px">
-			<a  href="https://www.zomato.com/bangalore/restaurants/chilld-monk?utm_medium=o2_widget&amp;utm_campaign=widget-business&amp;utm_source=referral-widget-chain-18679620"
-			  target="_blank"
-			  class="btn-cta-shop ">
-			  <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> <span class=""> Order</span></a>
+			<a  href="#OnlineOrder" rel="modal:open" class="btn-cta-shop ">
+        <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i> <span class=""> Order</span></a>        
 		  </div>
 		</div>
-	</div>
+  </div>
+     <!-- Modal HTML embedded directly into document -->
+<div id="OnlineOrder" class="modal">
+  <p style="margin-bottom: 0em;">That felt good. Choose your favourite app to place an order!</p>
+  <div class="" >
+    <div class="row" >
+    <div class="col-4" >
+      <a href="https://www.zomato.com/bangalore/restaurants/chilld-monk?utm_medium=o2_widget&amp;utm_campaign=widget-business&amp;utm_source=referral-widget-chain-18679620"
+      target="_blank">
+        <img alt="" src="images/zomato_logo.png" class="online-cta"></a>    
+    </div>
+    <div class="col-4">  <a href="https://www.swiggy.com/search?q=Chill%27D+Monk" class="" target="_blank">
+      <img alt="" src="images/swiggy.png" class="online-cta" style="border-radius: 12px;"></a>   </div>
+    <div class="col-4">  <a href="https://www.zomato.com/bangalore/restaurants/chilld-monk?utm_medium=o2_widget&amp;utm_campaign=widget-business&amp;utm_source=referral-widget-chain-18679620"
+      target="_blank">
+      <img alt="" src="images/Uber-Eats.png" class="online-cta"></a>   </div>
+    </div>
+  </div>
+</div>
+
+<!-- Link to open the modal -->
+<!-- <p><a href="#OnlineOrder" rel="modal:open">Open Modal</a></p> -->
+
 	<a href="#home" id="scrollBtn" >
 		<i class="fa fa-arrow-circle-up fa-2x " aria-hidden="true"></i></a>
     <!-- Scripts -->
+   
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      $(document).ready(function() {
+        AOS.init();
+        });
+      </script> 
 	<script>
 		//Get the button
 		var mybutton = document.getElementById("scrollBtn");
